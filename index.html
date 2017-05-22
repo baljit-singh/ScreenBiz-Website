@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ScreenBiz</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://use.fontawesome.com/3c394720e3.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
-    
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".navbar-collapse">
@@ -27,16 +24,16 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">Select Your Brand</a></li>
-            <li><a href="#">Why Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#HomeSection">Home</a></li>
+            <li><a href="#HowItWorks">How It Works</a></li>
+            <li><a href="#SelectYourMobile">Select Your Mobile</a></li>
+            <li><a href="#WhyUs">Why Us</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="HomeSection">
       <div class="row FirstSectionContent">
         <div class="col-sm-4 leftSection">
           <img src="images/mobile.png">
@@ -44,105 +41,111 @@
         <div class="col-sm-8 rightSection">
           <h1>Is Your Mobile Screen Broken?</h1>
           <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</p>
-          <input class="btn FirstButton" type="submit" name="submit" value="GET QUOTE"/>
-          <input class="btn SecondButton" type="submit" name="submit" value="VIEW BRANDS"/>
+          <!-- <input class="btn FirstButton" type="submit" name="submit" value="GET QUOTE"/> -->
+          <input class="btn SecondButton" type="submit" name="submit" value="Select Your Mobile"/>
         </div>
       </div>
     </div>
   </div>
-  <div class="container SecondSection">
-    <h4>How It Works</h4>
-    <span class="divider"></span>
-    <div class="row">
-      <div class="col-sm-3">
-        <img class="img-responsive" src="images/orderOnline.png">
-        <h3 class="alignHeading">Place Order</h3>
-        <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
-      </div>
-      <div class="col-sm-3">
-        <img class="img-responsive" src="images/pickUp.png">
-        <h3>Pick Up</h3>
-        <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
-      </div>
-      <div class="col-sm-3">
-        <img class="img-responsive" src="images/repair.png">
-        <h3>Repair</h3>
-        <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
-      </div>
-      <div class="col-sm-3">
-        <img class="img-responsive" src="images/delivery.png">
-        <h3 class="alignHeading">Delivery</h3>
-        <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="container BrandSection">
-      <h4>Select Your Mobile</h4>
+  <div class="container-fluid SecondSection" id="HowItWorks">
+    <div class="container">
+      <h4>How It Works</h4>
       <span class="divider"></span>
-      <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#Apple" aria-controls="home" role="tab" data-toggle="tab">Apple</a></li>
-        <li role="presentation"><a href="#Samsung" aria-controls="samsung" role="tab" data-toggle="tab">Samsung</a></li>
-        <li role="presentation"><a href="#oppo" aria-controls="oppo" role="tab" data-toggle="tab">oppo</a></li>
-        <li role="presentation"><a href="#vivo" aria-controls="vivo" role="tab" data-toggle="tab">vivo</a></li>
-        <li role="presentation"><a href="#motorola" aria-controls="motorola" role="tab" data-toggle="tab">motorola</a></li>
-      </ul>
-    <!-- Tab panes -->
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane fade in active" id="Apple">
-          <div class="row">
-            <div class="col-md-3"><img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"><p>iphone</p></div>
-            <div class="col-md-3"><img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"><p>iphone</p></div>
-            <div class="col-md-3"><img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"><p>iphone</p></div>
-            <div class="col-md-3"><img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"><p>iphone</p></div>
-            <div class="col-md-3"><img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"><p>iphone</p></div>
-            <div class="col-md-3"><img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"><p>iphone</p></div>
-            <div class="col-md-3"><img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"><p>iphone</p></div>
-          </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <img class="img-responsive" src="images/orderOnline.png">
+          <h3 class="alignHeading">Place Order</h3>
+          <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="Samsung"><div class="row">
-            <div class="col-md-3">samsung-one</div>
-            <div class="col-md-3">samsung-two</div>
-            <div class="col-md-3">samsung-three</div>
-            <div class="col-md-3">samsung-four</div>
-          </div></div>
-        <div role="tabpanel" class="tab-pane fade" id="oppo">
-          <div class="row">
-            <div class="col-md-3">oppo-one</div>
-            <div class="col-md-3">oppo-two</div>
-            <div class="col-md-3">oppo-three</div>
-            <div class="col-md-3">oppo-four</div>
-            <div class="col-md-3">oppo-four</div>
-            <div class="col-md-3">oppo-four</div>
-            <div class="col-md-3">oppo-four</div>
-          </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="images/pickUp.png">
+          <h3>Pick Up</h3>
+          <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="vivo">
-          <div class="row">
-            <div class="col-md-3">vivo-one</div>
-            <div class="col-md-3">vivo-two</div>
-            <div class="col-md-3">vivo-three</div>
-            <div class="col-md-3">vivo-four</div>
-            <div class="col-md-3">vivo-four</div>
-            <div class="col-md-3">vivo-four</div>
-            <div class="col-md-3">vivo-four</div>
-          </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="images/repair.png">
+          <h3>Repair</h3>
+          <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="motorola">
-          <div class="row">
-            <div class="col-md-3">moto-one</div>
-            <div class="col-md-3">moto-two</div>
-            <div class="col-md-3">moto-three</div>
-            <div class="col-md-3">moto-four</div>
-            <div class="col-md-3">moto-four</div>
-            <div class="col-md-3">moto-four</div>
-            <div class="col-md-3">moto-four</div>
-          </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="images/delivery.png">
+          <h3 class="alignHeading">Delivery</h3>
+          <p>Lorem ipsum dolor sit amet.Sample text sample text.</p>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
-  <div class="container-fluid whyUsSection">
+
+
+  <div class="container BrandSection" id="SelectYourMobile">
+    <h4>Select Your Mobile</h4>
+    <span class="divider"></span>
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#Apple" aria-controls="home" role="tab" data-toggle="tab">Apple</a></li>
+      <li role="presentation"><a href="#Samsung" aria-controls="samsung" role="tab" data-toggle="tab">Samsung</a></li>
+      <li role="presentation"><a href="#redmi" aria-controls="redmi" role="tab" data-toggle="tab">Redmi</a></li>
+      <li role="presentation"><a href="#vivo" aria-controls="vivo" role="tab" data-toggle="tab">vivo</a></li>
+      <li role="presentation"><a href="#motorola" aria-controls="motorola" role="tab" data-toggle="tab">motorola</a></li>
+    </ul>
+  <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="Apple">
+        <div class="row">
+          <div class="col-md-3 mobilePhone"><a href="getQuote.html" id="iphone4"><img class="img-responsive" src="images/Mobiles/apple/iphone 4.jpg" style="height: 150px"></a><p>iphone 4</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="iphone4s"><img class="img-responsive" src="images/Mobiles/apple/iphone 4s.jpg" style="height: 150px"></a><p>iphone 4s</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="iphone5c"><img class="img-responsive" src="images/Mobiles/apple/iphone 5c.jpg" style="height: 150px"></a><p>iphone 5c</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="iphone5s"><img class="img-responsive" src="images/Mobiles/apple/iphone5s.jpg" style="height: 150px"></a><p>iphone 5s</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/apple/iphone6.jpg" style="height: 150px"></a><p>iphone 6</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/apple/iphone 6plus.jpg" style="height: 150px"></a><p>iphone 6 plus</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/apple/iphone 6s.jpg" style="height: 150px"></a><p>iphone 6s</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/apple/iphone 6splus.jpg" style="height: 150px"></a><p>iphone 6s plus</p></div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="Samsung">
+        <div class="row">
+          <div class="col-md-3 mobilePhone"><a href="getQuote.html" id="S3"><img class="img-responsive" src="images/Mobiles/samsung/s3.jpg" style="height: 150px"></a><p>Samsung galaxy s3</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="S4"><img class="img-responsive" src="images/Mobiles/samsung/s4.jpg" style="height: 150px"></a><p>Samsung galaxy s4</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="S5"><img class="img-responsive" src="images/Mobiles/samsung/s5.jpg" style="height: 150px"></a><p>Samsung galaxy s5</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="S6"><img class="img-responsive" src="images/Mobiles/samsung/s6.jpg" style="height: 150px"></a><p>Samsung galaxy s6</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/samsung/j2.jpg" style="height: 150px"></a><p>Samsung j2</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/samsung/j3.jpg" style="height: 150px"></a><p>Samsung j3</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/samsung/j7.jpg" style="height: 150px"></a><p>Samsung j7</p></div>
+          <div class="col-md-3"><a href="#"><img class="img-responsive" src="images/Mobiles/samsung/j7-prime.jpg" style="height: 150px"></a><p>Samsung j7 prime</p></div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="redmi">
+        <div class="row">
+          <div class="col-md-3 mobilePhone"><a href="#" id="r3"><img class="img-responsive" src="images/Mobiles/redmi/redmi3.jpg" style="height: 150px"></a><p>Redmi 3</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="3s"><img class="img-responsive" src="images/Mobiles/redmi/3s.jpg" style="height: 150px"></a><p>Redmi 3s</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="3sprime"><img class="img-responsive" src="images/Mobiles/redmi/3s-prime.jpg" style="height: 150px"></a><p>Redmi 3s-prime</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="S6"><img class="img-responsive" src="images/Mobiles/redmi/note3.jpg" style="height: 150px"></a><p>Redmi note 3</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="S6"><img class="img-responsive" src="images/Mobiles/redmi/note4.jpg" style="height: 150px"></a><p>Redmi note 4</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="S6"><img class="img-responsive" src="images/Mobiles/redmi/mi5.jpg" style="height: 150px"></a><p>Redmi 5</p></div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="vivo">
+        <div class="row">
+          <div class="col-md-3 mobilePhone"><a href="#" id="v3"><img class="img-responsive" src="images/Mobiles/vivo/v3.jpg" style="height: 150px"></a><p>Vivo v3</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="v1max"><img class="img-responsive" src="images/Mobiles/vivo/v1max.jpg" style="height: 150px"></a><p>Vivo v1 max</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="y15"><img class="img-responsive" src="images/Mobiles/vivo/y15.jpg" style="height: 150px"></a><p>Vivo Y15</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="y21"><img class="img-responsive" src="images/Mobiles/vivo/y21.png" style="height: 150px"></a><p>Vivo Y21</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="y28"><img class="img-responsive" src="images/Mobiles/vivo/y28.jpg" style="height: 150px"></a><p>Vivo Y28</p></div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="motorola">
+        <div class="row">
+          <div class="col-md-3 mobilePhone"><a href="#" id="motoE"><img class="img-responsive" src="images/Mobiles/motorola/moto-e.jpg" style="height: 150px"></a><p>Moto E</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="motoE3"><img class="img-responsive" src="images/Mobiles/motorola/e3.jpg" style="height: 150px"></a><p>Moto E3</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="motog4"><img class="img-responsive" src="images/Mobiles/motorola/g4.jpg" style="height: 150px"></a><p>Moto G4</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="motog5"><img class="img-responsive" src="images/Mobiles/motorola/g5.jpg" style="height: 150px"></a><p>Moto G5</p></div>
+          <div class="col-md-3 mobilePhone"><a href="#" id="motoX"><img class="img-responsive" src="images/Mobiles/motorola/motox.jpg" style="height: 150px"></a><p>Moto X</p></div>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+
+  <div class="container-fluid whyUsSection" id="WhyUs">
     <div class="container">
       <h4>Why Us</h4>
       <span class="divider"></span>
@@ -176,12 +179,70 @@
       <input class="btn QuoteButton" type="submit" name="submit" value="Get A Quote"/>
     </div>
   </div>
-  <!-- <div class="container-fluid quoteSection">
-    <h1>Is your Mobile Screen Broken?</h1>
-    <p>Get the best quality mobile sceen replacement</p>
-    <input class="btn quoteButton" type="submit" name="submit" value="GET QUOTE"/>
-  </div> -->
-  <div class="container-fluid locationScr"></div>
+
+  <div class="container-fluid ourTeam">
+    <h4>Our Team</h4>
+    <span class="divider"></span>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1 dp1">
+        <img class="img-responsive" src="images/harshdp.jpg">
+        <h4>Harsh Singh</h4>
+        <h5 class="designation">Co-Founder</h5>
+        <ul>
+          <li><a href="#"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 dp1">
+        <img class="img-responsive" src="images/wadhwadp1.jpeg">
+        <h4>Shubham Wadhwa</h4>
+        <h5 class="designation">Co-Founder</h5>
+        <ul>
+          <li><a href="#"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 dp1">
+        <img class="img-responsive" src="images/mishrafunnydp.jpeg">
+        <h4>Anuraag Mishra</h4>
+        <h5 class="designation">Back-end Developer</h5>
+         <ul>
+          <li><a href="https://www.facebook.com/anuraagmx" target="__blank"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/anuraagmx?s=09" target="__blank"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 dp1">
+        <img class="img-responsive" src="images/mydp.jpg">
+        <h4>Baljit Singh</h4>
+        <h5 class="designation">Frond-end Developer</h5>
+        <ul>
+          <li><a href="https://www.facebook.com/baljit.singh.7508" target="__blank"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/bs__speaks" target="__blank"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/baljit-singh-27a0369b/" target="__blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 dp1">
+        <img class="img-responsive" src="images/jatindp.jpeg">
+        <h4>Jatin Gupta</h4>
+        <h5 class="designation">aj tak ni pata laga what's his role</h5>
+        <ul>
+          <li><a href="#"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <!-- <div class="col-md-3"><img class="img-responsive" src="images/dp.jpeg"></div>
+      <div class="col-md-3"><img class="img-responsive" src="images/harshdp.jpg"></div>
+      <div class="col-md-3"><img class="img-responsive" src="images/dp.jpeg"></div>
+      <div class="col-md-3"><img class="img-responsive" src="images/dp.jpeg"></div> -->
+    </div>
+  </div>
+
+
+  <div class="container-fluid locationScr" id="Contact"></div>
+
+
   <footer class="container-fluid">
     <div class="container">
       <div class="row footerContent">
@@ -204,7 +265,7 @@
             <li><a href="#">Choose Your Mobile</a></li>
             <li><a href="#">How it Works</a></li>
             <li><a href="warrantypolicies.html" target="__blank">Warranty policies</a></li>
-            <li><a href="#">Terms And Conditions</a></li>
+            <li><a href="termsandconditions.html">Terms And Conditions</a></li>
           </ul>
         </div>
       </div>
