@@ -219,7 +219,7 @@ footer {
     footer .credit a {
       color: white; }
 
-@media(max-width: 1440px) and (min-width: 768px) {
+@media(max-width: 1440px) and (min-width: 888px) {
   .navbar {
     background: transparent;
     border-bottom: none;
@@ -232,6 +232,9 @@ footer {
         transition: 0.3s ease; }
         .navbar .collapse ul li a:hover {
           transform: scale(1.2); } }
+@media(max-width: 887px) {
+  .navbar {
+    background-color: #3B5998; } }
 @media(max-width: 1230px) {
   .FirstSection .FirstSectionContent .rightSection h1 {
     font-size: 40px; } }
