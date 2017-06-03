@@ -14,17 +14,26 @@
     <div class="logoSection">
       <img src="images/mainLogo_white.png" style="height: 65px">
     </div>
+      <br/>
+      <br/>
     <div class="container">
-      <div class="MobilePic"></div>
-      <!-- <img class="img-responsive" src="images/iphone6s.jpg" style="height: 150px"> -->
+      <div class="MobilePic">
+      <img class="img-responsive" src="" style="height: 400px">
+      </div>
     </div>
     
-    
-  </body>
+ 
     
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/functions.js"></script>
+    <script>
+    $(function(){
+      $(".MobilePic").find('img').attr("src",localStorage.getItem('url'))
+    })
+   
+</script>
+      
   </body>
 </html>
